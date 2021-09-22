@@ -26,7 +26,6 @@ function init()
     ground = new Ground(0xffffff, WIDTH, HEIGHT, 10, 0, 0);
     
     player1 = new Player("player1", 0xffff00, new THREE.Vector2(0, 0), 0);
-    console.log(player1.graphic.position, player1.position);
     scene.add(player1.graphic);
 
     light1 = new Light("sun", 0xffffff, "0,0,340");
